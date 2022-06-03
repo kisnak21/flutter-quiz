@@ -106,13 +106,13 @@ class _LoginScreenState extends State<LoginScreen> {
                 "Login",
                 style: GoogleFonts.acme(
                   color: Colors.black,
-                  fontSize: 25.0,
+                  fontSize: 40.0,
                   fontWeight: FontWeight.bold,
                 ),
               ),
             ),
             const SizedBox(
-              height: 15.0,
+              height: 20.0,
             ),
             TextField(
               controller: _emailController,
@@ -130,8 +130,8 @@ class _LoginScreenState extends State<LoginScreen> {
               obscureText: true,
               controller: _passwordController,
               decoration: const InputDecoration(
-                hintText: "Password",
-                labelText: "Your password",
+                hintText: "Don't let anyone knows",
+                labelText: "Password",
                 prefixIcon: Icon(Icons.lock, color: Colors.black),
               ),
             ),
